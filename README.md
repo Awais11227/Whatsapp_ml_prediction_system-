@@ -1,11 +1,11 @@
-# 📱 WhatsApp ML Prediction System (Twilio + Flask + Machine Learning)
+# WhatsApp ML Prediction System (Twilio + Flask + Machine Learning)
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates a real-time machine learning system integrated with WhatsApp using Twilio and Flask. Users send comma-separated numerical values via WhatsApp, and the system predicts outcomes using a trained ML model and returns results instantly.
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. User sends numbers (comma-separated) via WhatsApp  
 2. Twilio webhook receives the message  
@@ -17,7 +17,7 @@ This project demonstrates a real-time machine learning system integrated with Wh
 
 ---
 
-## 🧠 Machine Learning Pipeline
+## Machine Learning Pipeline
 
 - Input: 11 numerical features (comma-separated)
 - Preprocessing: Feature parsing + validation
@@ -30,7 +30,7 @@ This project demonstrates a real-time machine learning system integrated with Wh
 
 ---
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 ### 1. Install dependencies
 ```bash
