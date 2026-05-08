@@ -34,6 +34,26 @@ This project demonstrates a real-time machine learning system integrated with Wh
 - Ngrok (for local server exposure)
 
 ---
+##  Structure
+Assignment_Lab_watsapp/
+│
+├── app.py
+├── preprocessing.py
+├── train_and_save.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   └── Churn_Modelling.csv
+│
+├── artifacts/
+│   ├── model.pkl
+│   └── scaler.pkl
+│
+└── demo/
+    └── demo_video.mp4
+    ---
+
 
 ##  Setup Instructions
 
