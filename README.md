@@ -1,4 +1,4 @@
-# WhatsApp ML Prediction System (Twilio + Flask + Machine Learning)
+# **WhatsApp ML Prediction System (Twilio + Flask + Machine Learning)**
 
 ##  Project Overview
 This project demonstrates a real-time machine learning system integrated with WhatsApp using Twilio and Flask. Users send comma-separated numerical values via WhatsApp, and the system predicts outcomes using a trained ML model and returns results instantly.
@@ -8,48 +8,66 @@ This project demonstrates a real-time machine learning system integrated with Wh
 ## How It Works
 
 1. User sends numbers (comma-separated) via WhatsApp  
-2. Twilio webhook receives the message  
-3. Flask backend processes the input  
-4. Data is parsed and validated  
-5. Features are scaled using `scaler.pkl`  
-6. ML model predicts the output using `model.pkl`  
-7. Result is sent back to WhatsApp via Twilio  
+2. Twilio receives the message  
+3. Flask server processes the request  
+4. ML model predicts the result  
+5. Response is sent back to WhatsApp instantly  
 
 ---
 
-## Machine Learning Pipeline
+## Features
 
-- Input: 11 numerical features (comma-separated)
-- Preprocessing: Feature parsing + validation
-- Scaling: StandardScaler
-- Model: Trained classification model (e.g., Logistic Regression / Random Forest)
-- Output: Class label + confidence score
-## 📁 Project Structure
-
-<img width="468" height="601" alt="image" src="https://github.com/user-attachments/assets/9e9d0d34-8d93-411d-829a-f76abdec00bd" />
+- WhatsApp integration using Twilio API  
+- Real-time ML predictions  
+- Flask-based backend server  
+- Handles comma-separated numerical input  
+- Fast and automated response system  
 
 ---
 
-##  How to Run the Project
+##  Tech Stack
 
-### 1. Install dependencies
+- Python  
+- Flask  
+- Scikit-learn / Machine Learning Model  
+- Twilio API  
+- Ngrok (for local server exposure)
+
+---
+
+##  Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/Whatsapp_ml_prediction_system.git
+cd Whatsapp_ml_prediction_system
+
+### 2. Install dependencies
+
 ```bash
 pip install -r requirements.txt
+```
+### 3. Run Flask app
 
-### 2. Run Flask app
 ```bash
 python app.py
+```
 
-### 3. Start ngrok tunnel
+### 4. Expose server using Ngrok
+
 ```bash
 ngrok http 5000
+```
 
+### 5. Configure Twilio webhook
+Paste your Ngrok URL in Twilio WhatsApp webhook settings
+Set endpoint to /sms
 
+## 📊 Project Flow Diagram
 
-### 4. Update Twilio webhook
-```bash
-https://your-ngrok-url/whatsapp
+WhatsApp → Twilio → Flask API → ML Model → Response → WhatsApp
 
-### 👨‍💻 Author
-### Awais Manzoor
+## 👨‍💻 Author
+
+# Awais Manzoor
 
