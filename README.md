@@ -35,23 +35,8 @@ This project demonstrates a real-time machine learning system integrated with Wh
 
 ---
 ##  Structure
-Assignment_Lab_watsapp/
-│
-├── app.py
-├── preprocessing.py
-├── train_and_save.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   └── Churn_Modelling.csv
-│
-├── artifacts/
-│   ├── model.pkl
-│   └── scaler.pkl
-│
-└── demo/
-    └── demo_video.mp4
+<img width="624" height="418" alt="image" src="https://github.com/user-attachments/assets/d6bb2219-7386-4265-93d0-3a10a56f5e7a" />
+
     ---
 
 
